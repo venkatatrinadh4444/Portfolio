@@ -1,0 +1,28 @@
+.navContainer {
+    background-image: linear-gradient(to right,#19376DCC,#19376DB2);
+    font-family: "Outfit";
+}
+.links {
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Outfit';
+    color: #fff;
+    transition: 0.3s;
+}
+.links:hover {
+    color: #19376DCC;
+}
+.active {
+    color:#19376DCC;
+    font-weight: 600;
+}
+
+@media (min-width:992px) and (max-width:1400px) {
+    .linksContainer {
+        gap: 18px;
+    }
+}
+.collapse {
+    background-color: white;
+    color: transparent;
+}

@@ -1,0 +1,48 @@
+.detailContainer {
+    background-image: linear-gradient(to left,#19376D,#0c53d582);
+    min-height: 80vh;
+}
+
+.curosel {
+    height: 180px;
+}
+.curosel img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.container {
+    gap:18px;
+    background-image: linear-gradient(to right,#c0fffa54,#c0ffe56a);
+    border-radius: 8px;
+    padding: 8px;
+}
+.contentContainer {
+    text-align: center;
+}
+.contentContainer h2,p {
+    color:white;
+}
+.containerBtns {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+}
+.carouselContainer {
+    width:400px;
+}
+@media screen and (max-width:576px) {
+    .carouselContainer {
+        width: 320px;
+    }   
+}
+@media screen and (max-width:320px) {
+    .carouselContainer {
+        width: 280px;
+    }   
+}
+

@@ -1,0 +1,34 @@
+
+.container * {
+    font-family: "Outfit";
+    color: #ffff;
+}
+.container {
+    background-color: #000000;
+}
+.imageContainer {
+    animation: imageAnimation 3s ease-in-out infinite;
+}
+@keyframes imageAnimation {
+    0%{
+        transform: translateY(6px) scale(1);
+
+    }
+    50% {
+        transform: translateY(-6px) scale(1.1);
+    }
+    100% {
+        transform: translateY(6px) scale(1);
+    }
+}
+.message {
+    background-color: #000000;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    background-image:linear-gradient(to right,#A5D7E899,#ffffff04); 
+    background-size: 0%;
+    background-repeat: no-repeat;
+}
+.message:hover {
+    background-size: 100%;
+}

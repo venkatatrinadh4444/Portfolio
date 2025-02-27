@@ -1,0 +1,20 @@
+.imageAnimation {
+    animation: imageAnimation 3s ease-in-out infinite;
+}
+.container {
+    background-image: linear-gradient(to left,#326dda9b,#19366d);
+    color: white;
+}
+
+@keyframes imageAnimation{
+    0% {
+        transform: translateY(6px);
+    }
+    50% {
+        transform: translateY(-6px);
+    }
+    100% {
+        transform: translateY(6px);
+    }
+    
+}

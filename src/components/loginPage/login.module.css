@@ -1,0 +1,50 @@
+.container {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container h1 {
+    text-align: center;
+    margin-bottom: 12px;
+    font-family:'Outfit';
+    color:black;
+}
+.buttons {
+    gap: 18px;
+}
+.buttons button {
+    background-image: linear-gradient(to right,#0000ff69,#ffc0cbc9);
+    background-size:0%;
+    transition: all 0.3s ease-in-out;
+    background-repeat: no-repeat;
+    font-size: 18px;
+}
+.buttons button:hover {
+    background-size: 100%;
+}
+
+@media (min-width:576px) and (max-width:1400px) {
+    .container Form {
+        width: 400px;
+    }
+}
+.googleBtn button{
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    transition: all 0.4s ease-in-out;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.88),#000000b2);
+    background-size: 0%;
+    background-repeat: no-repeat;
+}
+.googleBtn button:hover {
+    background-size: 100%;
+    color: white;
+    transform: scale(1.1);
+}
+.loginContainer {
+    padding: 18px;
+    border-radius: 8px;
+    background-image: linear-gradient(to right,#0000ff44,#0000ff77);
+}
