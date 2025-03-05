@@ -1,4 +1,5 @@
 import styles from "./about.module.css";
+import about from '../../assets/about.png'
 
 const About = () => {
   return (
@@ -7,7 +8,7 @@ const About = () => {
       <div className={`d-flex align-items-center`}>
         <div className={`d-none d-sm-block ${styles.imageContainer}`}>
           <img
-            src="https://s3-alpha-sig.figma.com/img/f80e/4d21/bb6fc49f7303f3ffb733c16acae12bb1?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=aIXSU7-rHWoQheQfr7LrHAlu2Rvc0EdrlXXqy5dsKNV3gSvzjdPKimtyqllEbKf~Pg2KAt9pmTOuXKT2buBWEOe5esKjxC-WORwIfXRJ9Syoeo3WmRZ1FT3vZu3EjJJcBQSNqlg~etLSvHZ3B02-LCbpXC-KQLupSpqMe8Gu5ywGZYfWby1LMU4RZaytOti06J538HDJ0~CFTk7IKlKWs9i095qSnMBnoqR21DUz~RvdjF78U1jmqZQL4ByZfYTjATgavYf3gFJg--L9kO37QfY7LUuU6bJm6MaECNkuJLS9a9JUqjXn7pTY1MVgRX1PvU-iSN8vpL~jfuWiXaQo~g__"
+            src={about}
             alt="aboutImg"
             width="100%"
           />
